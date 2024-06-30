@@ -14,7 +14,7 @@ header {
 }
 header, footer {
   background: url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
-  background-size: contain;
+  background-size: cover;
 }
 
 /* Шапка */
