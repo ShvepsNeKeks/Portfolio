@@ -145,7 +145,7 @@ body {
   z-index: 1;
   min-width: calc(var(--index) * 15);
   min-height: calc(var(--index) * 10);
-  border: solid var(--color-1) 2px;
+  border: solid #510808 2px;
   background-size: cover;
   transform: rotateY(0deg);
   transition: transform 1.5s cubic-bezier(.2,.85,.4,1.275);
@@ -168,7 +168,7 @@ body {
   transform: rotateY(-180deg);
   min-width: 100%;
   min-height: 100%;
-  background-color: #dd5b5b;
+  background-color: #450505;
   transition: transform 1.5s cubic-bezier(.2,.85,.4,1.275);
 }
 
@@ -176,3 +176,8 @@ body {
   z-index: 2;
   transform: rotateY(0deg);
 } */
+
+ul {
+  position: absolute;
+  color: black;
+}
