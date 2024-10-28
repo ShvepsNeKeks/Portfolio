@@ -1,6 +1,7 @@
 @media screen and (max-width: 1250px) {
   .portfolio__container {
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     flex-direction: column;
     gap: 20px;
   }
